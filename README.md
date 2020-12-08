@@ -36,14 +36,14 @@ El tiempo entre cliente es homogénea y distribuye exponencial.
 
 #### Usando máximo de 3 minutos para horarios picos y 8 minutos en horario normal: 
 
-** Para 2 trabajadores fijos:
+**Para 2 trabajadores fijos:**
 
 Promedio de clientes: 162.186
 Promedio de fallos: 113.752
 Porciento de fallos: 70%
 Promedio de minutos por clientes: 17.566728379611515
 
-** Para 2 trabajadores más uno en horarios picos:
+**Para 2 trabajadores más uno en horarios picos:**
 
 Promedio de clientes: 163.719
 Promedio de fallos: 2.492
@@ -52,14 +52,14 @@ Promedio de minutos por clientes: 0.4008774965134847
 
 #### Usando máximo de 4 minutos para horarios picos y 10 minutos en horario normal: 
 
-**Para 2 trabajadores fijos:
+**Para 2 trabajadores fijos:**
 
 Promedio de clientes: 139.03
 Promedio de fallos: 31.64
 Porciento de fallos: 22.75%
 Promedio de minutos por clientes: 2.93
 
-#** Para 2 trabajadores más uno en horarios picos:
+**Para 2 trabajadores más uno en horarios picos:**
 
 Promedio de clientes: 139.16
 Promedio de fallos: 0.53
