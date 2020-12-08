@@ -1,10 +1,10 @@
 from random import random
 
-from src.distribution import ber, exponential, exponentialX, mean, rand
+from src.distribution import ber, exponential, mean, rand
 from src.simulation import Client, Simulation
 
 total_simulations = 1000
-arrive_rush_time = 3
+arrive_rush_time = 4
 arrive_normal_time = 8
 
 
@@ -30,7 +30,7 @@ def request_cook_time(type: int) -> float:
 
 def total_empoyes(t: int):
     if (90 < t < 210) or (420 < t < 540):
-        return 3  # rush time!!
+        return 2  # rush time!!
     else:
         return 2
 

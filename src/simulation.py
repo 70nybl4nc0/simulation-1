@@ -58,6 +58,7 @@ class Simulation:
             client = self.clients[i]
             if client.arrive_time <= t and self.clients[i].finish_time == inf:
                 self.working_employes += 1
+
                 self.clients[i].finish_time = t + self.get_request_minutes(
                     self.get_client_request()
                 )
